@@ -72,7 +72,7 @@ cv2.imwrite('createimg.png',newImg)
 cv2.waitKey(0)
 
 ```
-![画像](./01_study/00_createImg/createimg.png)
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/00_createImg/createimg.png)
 
 ## 画像読み込み
 
@@ -87,7 +87,7 @@ img = cv2.imread('sample.png')
 cv2.imshow('result',img)
 cv2.waitKey(0)
 ```
-![画像](./01_study/01_readshow/sample.png)
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/01_readshow/sample.png)
 
 
 ## 画像の色の平均値出す
@@ -109,7 +109,7 @@ cv2.imshow('average',average_color_img)
 cv2.imwrite('avarage.png',average_color_img)
 cv2.waitKey(0)
 ```
-![画像](./01_study/02_average/avarage.png)
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/02_average/avarage.png)
 
 
 ## 画素をいじる
@@ -161,7 +161,7 @@ cv2.imwrite('access_pixel.png',image)
 
 cv2.waitKey(0)
 ```
-![画像](./01_study/03_access_pixel/access_pixel.png)
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/03_access_pixel/access_pixel.png)
 
 ## トリミング
 ```python
@@ -191,7 +191,7 @@ cv2.imwrite('trimming.png',dstImg)
 cv2.waitKey(0)
 
 ```
-![画像](./01_study/04_trimming/trimming.png)
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/04_trimming/trimming.png)
 
 ## リサイズ
 ```python
@@ -215,7 +215,7 @@ cv2.imshow('resize',resizeImg)
 cv2.imwrite('resize.png',resizeImg)
 cv2.waitKey(0)
 ```
-![画像](./01_study/05_resize/resize.png)
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/05_resize/resize.png)
 
 
 ## 加算
@@ -248,9 +248,9 @@ cv2.imshow('add',addImg)
 cv2.imwrite('add.png',addImg)
 cv2.waitKey(0)
 ```
- ![画像](./01_study/06_add/addsample1.png)
- ![画像](./01_study/06_add/addsample2.png)
- ![画像](./01_study/06_add/add.png)
+ ![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/06_add/addsample1.png)
+ ![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/06_add/addsample2.png)
+ ![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/06_add/add.png)
 
 
 ## アフィン変換
@@ -293,7 +293,7 @@ cv2.imwrite('affine.png',afnImg)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![画像](./01_study/07_affine/affine.png)
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/07_affine/affine.png)
 
 
 ## 反転
@@ -320,11 +320,11 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
 上下に反転   
-![画像](./01_study/08_flip/flip-horizontal.png)   
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/08_flip/flip-horizontal.png)   
 
 
 左右に反転   
-![画像](./01_study/08_flip/flip-vertical.png)   
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/08_flip/flip-vertical.png)   
 
 
 ## グレースケール変換
@@ -341,7 +341,7 @@ cv2.imshow('result',gray)
 cv2.imwrite('grey.png',gray)
 cv2.waitKey(0)
 ```
-![画像](./01_study/09_grey/grey.png)   
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/09_grey/grey.png)   
 
 ## 描画関数のCircleを使う。
 ```python
@@ -362,7 +362,7 @@ cv2.imshow('plane',plane)
 cv2.imwrite('circle.png',plane)
 cv2.waitKey(0)
 ```
-![画像](./01_study/10_circle/circle.png)   
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/10_circle/circle.png)   
 
 ## 色の抽出
 ```python
@@ -398,11 +398,11 @@ cv2.imwrite('diff.png',dst)
 cv2.waitKey(0)
 ```
 #### Original
-![画像](./01_study/11_color/sample.png)   
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/11_color/sample.png)   
 #### Extraction
-![画像](./01_study/11_color/diff.png)   
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/11_color/diff.png)   
 #### Add
-![画像](./01_study/11_color/add.png)   
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/11_color/add.png)   
 
 
 ## カラーチェンネル入れ替え
@@ -428,7 +428,7 @@ cv2.imshow('changeChannel',changeChannel)
 cv2.imwrite('changeChannel.png',changeChannel)
 cv2.waitKey(0)
 ```
-![画像](./01_study/12_channel/changeChannel.png)   
+![画像](https://raw.githubusercontent.com/gollowars/study-OpenCV/master/01_study/12_channel/changeChannel.png)   
 
 
 <br/>
