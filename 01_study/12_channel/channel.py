@@ -16,4 +16,5 @@ red = bgr[2]
 changeChannel = cv2.merge([red,green,blue])
 
 cv2.imshow('changeChannel',changeChannel)
+cv2.imwrite('changeChannel.png',changeChannel)
 cv2.waitKey(0)

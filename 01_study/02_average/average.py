@@ -11,7 +11,6 @@ average_color = np.uint8(average_color)
 average_color_img = np.array([[average_color]*500]*500, np.uint8)
 
 
-
 cv2.imshow('average',average_color_img)
-# cv2.imwrite('avarage.png',avarage)
+cv2.imwrite('avarage.png',average_color_img)
 cv2.waitKey(0)
